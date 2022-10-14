@@ -1,0 +1,37 @@
+.textPrezentare {
+        font-size: 22px;
+        text-align: left;
+      justify-content: center;
+       align-items: center;
+                  width:80%;
+                   display:inline-block;
+
+
+       }
+
+
+.logoPrezentare {
+        width: 190px;
+        height: 50%;
+        margin-left:15px;
+        border-radius:50%;
+          float: right; 
+                  margin-bottom:10px;
+
+
+
+      }
+
+      
+
+      @media only screen and (max-width: 468px) {
+  /* For mobile phones: */
+  .logoPrezentare {
+    height: 54%;
+    width:140px;
+    margin-left:3px;
+        margin-bottom:4px;
+
+
+  }
+}

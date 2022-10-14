@@ -1,0 +1,42 @@
+{
+  "files": {
+    "src/components/intro/intro.css": [
+      {
+        "id": "35f26c45-9294-4276-9743-bbfd57379480",
+        "line": 61,
+        "version": 886,
+        "index": 1030
+      },
+      {
+        "id": "1ef2b06f-6df1-47a6-95e0-23b858422b7b",
+        "line": 63,
+        "version": 886,
+        "index": 1062
+      }
+    ],
+    "src/components/intro/intro.scss": [
+      {
+        "id": "3d24bbf6-8bac-48c5-8139-c7d014253d3c",
+        "line": 6,
+        "version": 700,
+        "index": 85
+      }
+    ],
+    "src/components/produse/TemplateProduse.jsx": [
+      {
+        "id": "6d74899f-dc9d-4ee1-9c04-4fa27feeefd6",
+        "line": 200,
+        "version": 4573,
+        "index": 7747
+      }
+    ],
+    "src/components/produse/Trofee.jsx": [
+      {
+        "id": "875e7ac5-8a2c-4ce4-97fc-d8623ee467b5",
+        "line": 1,
+        "version": 270,
+        "index": 0
+      }
+    ]
+  }
+}

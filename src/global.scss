@@ -1,0 +1,30 @@
+$mainColor:#28344c;
+
+
+
+ //.body {
+//overflow: hidden; 
+//}
+
+$width: 768px;
+$width1: 1024px;
+$width2: 1280px;
+
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$width1}){
+        @content
+    }
+}
+
+@mixin large {
+    @media (max-width: #{$width2}){
+        @content
+    }
+}

@@ -1,0 +1,150 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color:#28344c ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:auto;
+  color:white;
+    //z-index: 1;
+
+
+  h1 {
+    font-size: 50px;
+    margin-top:50px;
+    line-height: 1.2;
+
+    @include mobile{
+      font-size: 20px;
+          margin-top:30px;
+
+    }
+  }
+
+  h2 {
+    font-size: 26px;
+        margin-top:50px;
+        width:80%;
+        margin-bottom:27px;
+        line-height: 1.4;
+        color:crimson;
+        display: flex;
+  align-items: center;
+  text-align:center;
+
+
+
+
+    @include mobile{
+      font-size: 20px;
+      margin-top:30px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+       // margin-top:50px;
+        //width:80%;
+        margin-bottom:29px;
+                //margin-top:5px;
+            line-height: 1.4;
+
+            //display:wrap;
+         //flex-wrap: wrap;
+           display: block;
+
+
+    @include mobile{
+      font-size: 17px;
+    }
+  }
+
+
+
+  ul {
+    margin: 10px;
+    font-size:29px;
+    font-weight:700;
+    color:crimson;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    @include mobile{
+      margin: 10px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    //display: block;
+//overflow: auto;
+height:auto;
+margin-bottom:15px;
+
+    @include mobile{
+      width: 100%;
+    }
+
+    .item {
+      width: 220px;
+      height: 150px;
+      border-radius: 20px;
+      border: 1px solid rgb(240, 239, 239);
+      margin: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+      transition: all .5s ease;
+      cursor: pointer;
+            //  text-align: center;
+            //          vertical-align: middle;
+
+
+
+      @include mobile{
+        width: 130px;
+        height: 100px;
+      }
+
+      h3 {
+
+        display:flex;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+      justify-content: center;
+       align-items: center;
+        //vertical-align: middle;
+
+      @include mobile{
+        font-size:15px;
+      }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      &:hover {
+        background-color: crimson ;
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.produseList {
+  font-size: 20px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  //border-style: solid;
+  border-color:$mainColor;
+  background-color:$mainColor;
+  color:white;
+
+  @include mobile{
+    margin-right: 15px;
+      font-size: 20px;
+
+  }
+
+  &.active {
+    background-color: crimson;
+    color: white;
+    border-color:crimson;
+  }
+}

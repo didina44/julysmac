@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8464a551.chunk.css",
+    "main.js": "/static/js/main.a8958ae8.chunk.js",
+    "main.js.map": "/static/js/main.a8958ae8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.93ad318f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.93ad318f.js.map",
+    "static/js/2.cf9e5707.chunk.js": "/static/js/2.cf9e5707.chunk.js",
+    "static/js/2.cf9e5707.chunk.js.map": "/static/js/2.cf9e5707.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8464a551.chunk.css.map": "/static/css/main.8464a551.chunk.css.map",
+    "static/js/2.cf9e5707.chunk.js.LICENSE.txt": "/static/js/2.cf9e5707.chunk.js.LICENSE.txt",
+    "static/media/intro.css": "/static/media/trofeeSticla.02091ad4.jpg",
+    "static/media/sigla.2c7d2617.jpg": "/static/media/sigla.2c7d2617.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93ad318f.js",
+    "static/js/2.cf9e5707.chunk.js",
+    "static/css/main.8464a551.chunk.css",
+    "static/js/main.a8958ae8.chunk.js"
+  ]
+}

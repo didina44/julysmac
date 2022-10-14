@@ -1,0 +1,61 @@
+.desktop {
+        display: flex;
+        align-items: right;
+        margin-left: 40px;
+        justify-content: flex-end;
+        margin-right:auto;
+     
+}
+
+.menuDesktop {
+margin-top:17px;
+}
+
+.menuLinks {
+  text-transform: capitalize !important; 
+color:#28344c;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:17px;
+cursor:pointer;
+border-top: 0.1875rem solid transparent;
+padding-bottom: 1px;
+margin-top:17px;
+margin-left: 17px;
+}
+
+.menuLinks:hover {
+   border-bottom: 0.1875rem solid crimson;
+}
+
+.menuLinks:focus {
+   color:crimson;
+   border-bottom: 0.1875rem solid crimson;
+}
+
+@media only screen and (min-width: 768px) {
+  .right1  {
+    display:none;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display:none;
+  }
+}
+
+  @media only screen and (max-width: 1024px) {
+  .menuLinks {
+    font-size:15px;
+  } 
+}
+
+ @media only screen and (max-width: 1024px) {
+  .desktop {
+    margin-left:auto;
+  } 
+}
+
+
