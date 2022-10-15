@@ -1,7 +1,7 @@
 //import "./app.scss";
 //import Produse from './components/produse/Produse';
 //import Signaletica from './components/produse/Signaletica';
-import TemplateProduse from './components/produse/TemplateProduse';
+//import TemplateProduse from './components/produse/TemplateProduse';
 
 //import Trofee from './components/produse/Trofee';
 //import Industriale from './components/produse/Industriale';
@@ -37,7 +37,7 @@ export default function App1() {
 <Routes>
 
 <Route path="/" element={<PrimaPagina />} />
-<Route path="/produse" exact element={<TemplateProduse />} />
+
 
 
 </Routes>

@@ -1,166 +1,99 @@
 export const signaleticaPortfolio = [
     {
       id: 1,
-      title: "Placi de firma gravate",
+      title: "Migdale",
       img:
-        "assets/placiFirma.jpg",
+        "assets/migdale.jpeg",
     },
     {
       id: 2,
-      title: "Sisteme de afisaj",
+      title: "Faina de migdale",
       img:
-        "assets/sistemAfisajBun.jpg",
+        "assets/migdalePudra.jpg",
     },
     {
       id: 3,
-      title: "Sigle decupate",
+      title: "Faina de migdale",
       img:
-        "assets/sigleDecupate.jpg",
+        "assets/migdalePudra2.jpeg",
     },
-    {
-      id: 4,
-      title: "Signaletica hotel",
-      img: 
-        "assets/directieCamere.jpg",
-    },
-    {
-      id: 5,
-      title: "Display-uri plexiglas",
-      img:
-        "assets/displayPlexiglas.jpg",
-    },
-
-    {
-      id: 6,
-      title: "Signaletica institutii",
-      img:
-        "assets/salaConferinte.jpg",
-    },
+  
   ];
   
   export const trofeePortfolio = [
     {
       id: 1,
-      title: "Trofee sticla",
-      img: "assets/trofeeSticla.jpg",
+      title: "Albusuri batute",
+      img: "assets/albusuri.jpg",
     },
     {
       id: 2,
-      title: "Trofee plexiglas",
-      img: "assets/trofeePlexiglas.jpg",
+      title: "Albusuri cu zahar",
+      img: "assets/albusZahar.jpg",
     },
-    {
-      id: 3,
-      title: "Cupe sportive",
-      img: "assets/trofeeAccesibile.jpg",
-    },
-    {
-      id: 4,
-      title: "Medalii sportive",
-      img: "assets/medalii.jpg",
-    },
-    {
-      id: 5,
-      title: "Plachete gravate",
-      img: "assets/placheteGravateLemn.jpg",
-    },
-    {
-      id: 6,
-      title: "Proiecte speciale",
-      img: "assets/insigne.jpg",
-    },
+  
   ];
   
   export const promotionalePortfolio = [
     {
       id: 1,
-      title: "Pixuri mecanice",
+      title: "Coji de lamaie",
       img:
-        "assets/pixuriMetalice.jpg",
+        "assets/lemon.jpg",
     },
     {
       id: 2,
-      title: "Pixuri din plastic",
+      title: "Ciocolata",
       img:
-        "assets/pixuriPlastic.jpg",
+        "assets/ciocolata.jpg",
     },
     {
       id: 3,
-      title: "Accesorii de birou",
+      title: "Apa de trandafir",
       img:
-        "assets/accesoriiBirou.jpg",
+        "assets/trandafir.jpeg",
     },
     {
       id: 4,
-      title: "Cani si termosuri",
+      title: "Vanilie",
       img:
-        "assets/caniTermosuri.jpg",
-    },
-    {
-      id: 5,
-      title: "Brelocuri",
-      img:
-        "assets/brelocuri.jpg",
-    },
-    {
-      id: 6,
-      title: "Stick-uri USB",
-      img:
-        "assets/stickuri.jpg",
+        "assets/vanilie.jpg",
     },
   ];
   
   export const industrialaPortfolio = [
     {
       id: 1,
-      title: "Placi de timbru",
+      title: "Crema unt",
       img:
-        "assets/timbru.jpg",
+        "assets/cremaUnt.jpg",
     },
     {
       id: 2,
-      title: "Gravura inox",
+      title: "Crema fistic",
       img:
-        "assets/gravuraInox.jpg",
+        "assets/cremaFistic.jpg",
     },
     {
       id: 3,
-      title: "Gravura aluminiu",
+      title: "Crema zmeura",
       img:
-        "assets/gravuraAluminiu.jpg",
+        "assets/cremaZmeura.jpg",
     },
-    {
-      id: 4,
-      title: "Decupare CNC",
-      img:
-        "assets/decupareCnc.jpg",
-    },
-    
   ];
   
   export const fotogravuraPortfolio = [
     {
       id: 1,
-      title: "Fotogravura pe lemn",
+      title: "Dulceata",
       img:
-        "assets/fotogravuraLemn.jpg",
+        "assets/dulceata.jpeg",
     },
     {
       id: 2,
-      title: "Fotogravura pe rama argintie",
+      title: "Caramel",
       img:
-        "assets/fotogravuraArgintie.jpg",
+        "assets/caramel.jpg",
     },
-    {
-      id: 3,
-      title: "Fotogravura pe rama aurie",
-      img:
-        "assets/fotogravuraAurie.jpg",
-    },
-    {
-      id: 4,
-      title: "Fotogravura in mapa din plus",
-      img:
-        "assets/fotogravuraPlus.jpg",
-    },
+    
   ];
