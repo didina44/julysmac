@@ -30,7 +30,7 @@ return (
 <div className='desktop'>
        <div className='menuDesktop' style={{marginLeft:5}}> <a><HashLink to= "/#intro" className="menuLinks" style={{textTransform: "capitalize"}} >Acasa</HashLink></a> </div>
        
-        <div className='menuDesktop'> <a> <HashLink to= "/#portfolio" className="menuLinks" style={{textTransform: "capitalize"}} >Prezentare si ingrediente </HashLink></a> </div>
+        <div className='menuDesktop'> <a> <HashLink to= "/#portfolio" className="menuLinks" style={{textTransform: "capitalize"}} >Prezentare </HashLink></a> </div>
                 
 
         <div className='menuDesktop'><a> <HashLink to= "/#works" className="menuLinks">Preparare</HashLink></a></div>
