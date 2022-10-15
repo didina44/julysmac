@@ -6,30 +6,30 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/servicii/logoTechnologie.png",
-      title: "Tehnologie de ultima generatie",
+      icon: "./assets/servicii/migdale.jpeg",
+      title: "Mixare si macaronare",
       desc:
-        "Gravarea laser si mecanica se realizeaza cu instrumente si mecanisme de ultima generatie, de provenienta canadiana",
+        "Albusurile se mixeaza cu zahar si cu  făină de migdale",
       img:
-        "./assets/servicii/tehnologie.jpg",
+        "./assets/servicii/mix.jpg",
     },
     {
       id: "2",
-      icon: "./assets/servicii/logoMateriale.png",
-      title: "Materiale de cea mai buna calitate",
+      icon: "./assets/servicii/albusuri.jpg",
+      title: "Formare si coacere",
       desc:
-        "Lucram cu materiale de cea mai buna calitate, selectate dintr-o gama diversa, de la placi metalice, la sticla si lemn",
+        "Amestecul se toarna in forme si e copt la cuptor",
       img:
-        "./assets/servicii/materiale.jpg",
+        "./assets/servicii/oven.jpeg",
     },
     {
       id: "3",
-      icon: "./assets/servicii/logoProiectare.png",
-      title: "Proiectare riguroasa",
+      icon: "./assets/servicii/lemon.jpg",
+      title: "Montare crema",
       desc:
-        "Inginerii nostri au o experienta indelungata in redactarea si finisarea precisa a detaliilor proiectelor care ni se incredinteaza ",
+        "Se monteaza umplutura",
       img:
-        "./assets/servicii/proiectare.jpg",
+        "./assets/servicii/fill.jpeg",
     },
   ];
 
@@ -42,7 +42,7 @@ export default function Works() {
   return (
     <div className="works" id="works">
 
-    <h1> Servicii </h1>
+    <h1>  </h1>
 
     
 
