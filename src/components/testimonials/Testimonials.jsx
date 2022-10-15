@@ -5,53 +5,50 @@ export default function Testimonials() {
     {
       id: 1,
       name: "Andrei Popescu",
-      title: "Director hotel Park",
+      title: "Gurmand rafinat",
       img:
         "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/twitter.png",
       desc:
-        "Am apreciat profesionalismul si rapiditatea serviciilor GravoSign",
+        "Sunt fara cuvinte in fata a ceea ce gateste July....",
     },
     {
       id: 2,
       name: "Alexandra Marinescu",
-      title: "Manager firma",
+      title: "O alta gospodina",
       img:
         "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/youtube.png",
       desc:
-        "Am gasit la GravoSign o echipa creativa si riguroasa care mi-a furnizat toate solutiile de care aveam nevoie ",
+        "Domnule, nu imi ieseau...A trebuit sa apelez la July ",
       featured: true,
     },
     {
       id: 3,
       name: "Mihai Pelici",
-      title: "Organizator maraton",
+      title: "Initial sceptic ",
       img:
         "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",
       desc:
-        "A fost o placere sa lucrez cu cei de la GravoSign - au materiale excelente, comunica eficient si sunt imaginativi",
+        "Credeam ca sunt imun la dulciuri...pana am dat de July's Macarons...",
     },
   ];
   return (
     <div className="testimonials" id="testimonials">
-    <h1> Despre noi si clientii nostri </h1>
+    <h1> Despre mine si iubitorii de deserturi </h1>
 
     <p>
-
-    Inceput ca o afacere de familie in urma cu mai bine de 15 ani, GravoSign are o echipa creativa si experimentata, gata mereu sa raspunda provocarilor dvs. 
+Poveste lunga...Pe scurt, epopeea macarons a inceput ca o distractie, hranita de insistenta copiilor mei pentru acest gen de desert. A continuat ca o pasiune, dupa ce am descoperit gamele de arome, subtilitatea ingredientilor si geometria amestecurilor.
 </p>
 
 <p style={{ color: 'crimson' }}>
-    DE CE sa apelati la GravoSign? Pentru ca avem idei originale, folosim numai materiale de cea mai buna calitate, si ne cunoastem foarte bine meseria!
 </p>
 
-<p>Ne dorim sa lasam cat mai multe lucruri pozitive in urma noastra, de aceea le multumim clientilor ca ne ofera oportunitatea de a crea lucruri interesante!
 
-     </p>
+     
     
-      <p>De-a lungul timpului, printre multi altii, au apelat la serviciile noastre...</p>
+      <p>Printre cei care m-au complimentat au fost si...</p>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
