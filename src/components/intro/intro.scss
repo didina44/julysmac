@@ -77,13 +77,13 @@
       h1 {
         font-size: 60px;
         margin: 0px 0;
-        color:crimson;
+        color:#B01030;
 
         @include mobile{
           font-size: 40px;
         }
       }
-      h2 {
+      h2 {font-weight:	200;
         font-size: 35px;
         margin-top:80px;
         padding:0;
@@ -95,7 +95,7 @@
         }
       }
 
-      h3 {
+      h3 {font-weight:	200;
         font-size: 30px;
         margin-top:26px;
         margin-bottom:60px;
@@ -108,7 +108,7 @@
 
         }
 
-        p {
+        p {font-weight:	200;
           font-size: inherit;
           //color: crimson;
         }

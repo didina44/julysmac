@@ -15,7 +15,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["productie publicitara", "trofee si premii", "signaletica", "obiecte promotionale"],
+      strings: ["zmeura", "fistic", "lamaie", "caramel", "vanilie", "pepene galben", "ciocolata", "mango", "sampanie"],
     });
   }, []);
 
@@ -46,24 +46,24 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h2>Bun venit la </h2>
-          <h1>GravoSign</h1>
+          <h1>July's Macarons</h1>
           <h3>
-            Gravura laser si mecanica
-            <p> pentru <span style={{color:'crimson'}} ref={textRef}> </span> </p>
+            
+            <p> Gust si arome de <span style={{color:'seagreen'}} ref={textRef}> </span> </p>
           </h3>
 
           <div className='itemContainer2'>
-       <FaPhone className='icon' style={{ color:'crimson'}} />
-       <span style={{ marginLeft:5, marginRight:16}} className='contactDetails'> 0723353923 </span>
-       <FaMailBulk className='icon' style={{ color:'crimson'}} />
-       <span style={{ marginLeft:5}} className='contactDetails'> info@gravosign.ro </span>
+       <FaPhone className='icon' style={{ color:'black'}} />
+       <span style={{ marginLeft:5, marginRight:16}} className='contactDetails'> 0731795373 </span>
+       <FaMailBulk className='icon' style={{ color:'black'}} />
+       <span style={{ marginLeft:5}} className='contactDetails'> julycioran@yahoo.com </span>
        </div>
 
 
 
 
 
-          <h3 style={{color:"#28344c"}} >De 15 ani acceptam orice provocare!</h3>
+          <h2 style={{color:" black"}} >cel mai rafinat desert, facut de casa si in casa :) </h2>
 
           
 

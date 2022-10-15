@@ -66,42 +66,42 @@
 }
 
 .slideshow li:nth-child(1) span { 
-    background-image: url('../../assets/intro/trofeeAccesibile.jpg'); 
+    background-image: url('../../assets/intro/macarons1.jpg'); 
 }
 .slideshow li:nth-child(2) span { 
-    background-image: url('../../assets/intro/sigleDecupate.jpg');
+    background-image: url('../../assets/intro/macarons2.jpeg');
     animation-delay: 3s; 
 }
 .slideshow li:nth-child(3) span { 
-    background-image: url('../../assets/intro/bobite.jpg'); 
+    background-image: url('../../assets/intro/macarons3.jpg'); 
 
     animation-delay: 6s; 
 }
 .slideshow li:nth-child(4) span { 
-    background-image: url('../../assets/intro/salaConferinte.jpg'); 
+    background-image: url('../../assets/intro/macarons4.jpg'); 
 
     animation-delay: 9s; 
 }
 .slideshow li:nth-child(5) span { 
-    background-image: url('../../assets/intro/sah.jpg'); 
+    background-image: url('../../assets/intro/macarons5.jpg'); 
 
     animation-delay: 12s; 
 }
 
 .slideshow li:nth-child(6) span { 
-    background-image: url('../../assets/intro/sistemAfisajBun.jpg'); 
+    background-image: url('../../assets/intro/macarons6.jpg'); 
 
     animation-delay: 15s; 
 }
 
 .slideshow li:nth-child(7) span { 
-    background-image: url('../../assets/intro/trofeeSticla.jpg'); 
+    background-image: url('../../assets/intro/macarons7.jpg'); 
 
     animation-delay: 18s; 
 }
 
 .slideshow li:nth-child(8) span { 
-    background-image: url('../../assets/intro/accesoriiBirou.jpg'); 
+    background-image: url('../../assets/intro/macarons8.jpg'); 
 
     animation-delay: 21s; 
 }
