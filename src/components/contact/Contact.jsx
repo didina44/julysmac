@@ -17,26 +17,26 @@ export default function Contact() {
 
         <h2 style={{ color:'crimson' }}>Contact</h2>
         <p>
-        De la fiecare client care ne trece pragul invatam ceva nou si interesant. Cu fiecare lucrare realizata ne perfectionam tehnica si ne dezvoltam creativitatea. </p>
+        Se pare ca v-ati hotarat... </p>
         
-        <p>Va multumim pentru ca sunteti sau doriti sa fiti clientul nostru!</p>
+        <p>Va multumesc pentru ca sunteti interesat de desertul meu!</p>
 
-        <h2> Datele noastre de contact </h2>
+        <h2> Datele mele de contact </h2>
 
         <p>
-    <span style={{color:'#28344c', fontWeight:'bold' }}>   Adresa  </span> - Bucuresti, Sector 6, Bulevardul Timisoara, nr 92 </p>
+    <span style={{color:'#28344c', fontWeight:'bold' }}>   Adresa  </span> - Deva </p>
 
-<p> <span style={{color:'#28344c', fontWeight:'bold' }}>Telefon </span>- 0723.353.923 </p>
+<p> <span style={{color:'#28344c', fontWeight:'bold' }}>Telefon </span>- 0731795373 </p>
 
-<p> <span style={{color:'#28344c', fontWeight:'bold' }}>Email </span> - info@gravosign.ro</p>
+<p> <span style={{color:'#28344c', fontWeight:'bold' }}>Email </span> - julycioran@yahoo.com</p>
 
-        <h2> Ne puteti trimite un mesaj direct de aici </h2>
+        <h2> Imi puteti trimite un mesaj direct de aici </h2>
 
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Adresa dvs de email" />
           <textarea placeholder="Mesajul dvs"></textarea>
           <button type="submit">Trimiteti</button>
-          {message && <span style={{color:'#28344c', fontWeight:'bold', marginTop:20 }}>Va multumim, vom raspunde in cel mai scurt timp :)</span>}
+          {message && <span style={{color:'#28344c', fontWeight:'bold', marginTop:20 }}>Va multumesc, voi raspunde in cel mai scurt timp :)</span>}
         </form>
     </div>
           </div>
