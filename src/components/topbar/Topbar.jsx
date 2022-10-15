@@ -19,22 +19,22 @@ return (
   <div className={"topbar " + (menuOpen && "active")}>
   <div className='wrapper'>
     <div className='left'>
-    <a><HashLink to= "/#intro" className="logo"> <img className="logoSigla" src={ Sigla} alt='GravoSign logo...' /></HashLink> </a>
+    <a><HashLink to= "/#intro" className="logo"> <img className="logoSigla" src={ Sigla} alt='Julys logo...' /></HashLink> </a>
        <div className='itemContainer'>
        <FaPhone className='icon' style={{ color:'crimson'}} />
-       <span className='contactDetails'> 0723353923 </span>
+       <span className='contactDetails'> 0731795373 </span>
        <FaMailBulk className='icon' style={{ color:'crimson'}} />
-       <span className='contactDetails'> info@gravosign.ro </span>
+       <span className='contactDetails'> julycioran@yahoo.com </span>
        </div>
         
 <div className='desktop'>
        <div className='menuDesktop' style={{marginLeft:5}}> <a><HashLink to= "/#intro" className="menuLinks" style={{textTransform: "capitalize"}} >Acasa</HashLink></a> </div>
        
-        <div className='menuDesktop'> <a> <HashLink to= "/#portfolio" className="menuLinks" style={{textTransform: "capitalize"}} >Prezentare </HashLink></a> </div>
-                <div className='menuDesktop'><a><Link to='/produse' className="menuLinks" style={{textTransform: "capitalize"}} >Produse </Link></a></div>
+        <div className='menuDesktop'> <a> <HashLink to= "/#portfolio" className="menuLinks" style={{textTransform: "capitalize"}} >Prezentare si ingrediente </HashLink></a> </div>
+                
 
-        <div className='menuDesktop'><a> <HashLink to= "/#works" className="menuLinks">Servicii</HashLink></a></div>
-        <div className='menuDesktop'><a ><HashLink to= "/#testimonials" className="menuLinks">Despre noi</HashLink></a> </div>
+        <div className='menuDesktop'><a> <HashLink to= "/#works" className="menuLinks">Preparare</HashLink></a></div>
+        <div className='menuDesktop'><a ><HashLink to= "/#testimonials" className="menuLinks">Despre mine </HashLink></a> </div>
         <div className='menuDesktop'><a><HashLink to= "/#contact" className="menuLinks">Contact</HashLink></a> </div>
 
 </div>
