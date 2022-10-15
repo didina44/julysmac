@@ -19,23 +19,23 @@ export default function Portfolio() {
   const list = [
     {
       id: "signaletica",
-      title: "Signaletica",
+      title: "Migdale",
     },
     {
       id: "trofee",
-      title: "Trofee",
+      title: "Albusuri",
     },
     {
       id: "promotionale",
-      title: "Obiecte promotionale",
+      title: "Aroma si culoare",
     },
     {
       id: "industriala",
-      title: "Gravura industriala",
+      title: "Umplutura",
     },
     {
       id: "fotogravura",
-      title: "Fotogravura",
+      title: "Ornare",
     },
   ];
 
@@ -69,7 +69,7 @@ export default function Portfolio() {
 </h2>
 
 <div className='textPrezentare'>
-          <p>Va multumim ca ati ales sa vizitati site-ul nostru si sa cunoasteti o parte din echipa si ideile GravoSign!
+          <p>Macarons sunt cele mai iubite prajituri frantuzesti, recunoscute in intreaga lume. Desi sunt simple din punct de vedere al ingredientelor, nu multi sunt cei care se pot lauda cu macarons perfecti. Succesul prepararii celor mai buni macarons este influentat atat de ingrediente, de aparatura, dar si de priceperea persoanei care le va prepara.
 
 </p>
 
@@ -77,17 +77,22 @@ export default function Portfolio() {
 
  <p>   <img className="logoPrezentare" src={ SiglaMare} alt='GravoSign logo...' /> </p>
 
-Nu ne-am dori foarte mult sa scoatem in evidenta de cati ani suntem in aceasta industrie a creativitatii si productiei publicitare - ne-am simti cam in varsta :). 
+Macarons au o istorie lungă în spate – însă una fără arome și fără culori. Fursecurile pe bază de făină de migdale, ingredientul-cheie, au apărut în Europa în urmă cu multe veacuri – poate chiar încă din secolul al VIII-lea, când arabii au adus pe continent migdalele. 
 
+   </p>
 
+   <p>
 
- Cert e ca am 'imbatranit' cu o multime de clienti - oameni frumosi, si cu o gramada de incercari si lucrari de care ne aducem aminte cu mare drag! Unele din ele chiar refacute si pastrate in showroom-urile noastre la loc de cinste - un fel de Hall of Fame al parcursului nostru! 
+Strămoșul lor ar fi, se pare, un fursec simplu, preparat din făină de migdale, albușuri de ou și zahăr, pregătit în mod tradițional în Italia și adus pe meleagurile pariziene de patiserii Caterinei de Medici în 1533, atunci când aceasta s-a căsătorit cu viitorul Henric al II-lea al Franței. Denumirea provine din limba italiană, din același maccherone care a dat și numele macaroanelor (paste cu brânză), însemnând „aluat fin”.
+ 
  </p>
  
  
 
-      <p>Aveti mai jos cateva din produsele si tipurile noastre de proiecte. Pentru gama completa, va rugam sa vizitati pagina "Produse" din meniul principal </p>
-      
+      <p>Fursecurile din migdale au pătruns în bucătăriile francezilor, dar au ajuns cunoscute abia în anii Revoluției, când două măicuțe, refugiindu-se la Nancy din pricina tulburărilor politice, au început să vândă aceste deserturi pentru a se întreține. Ele au devenit cunoscute drept les Soeurs Macarons(„surorile Macarons”).  </p>
+<p>
+In mare, ingredientele sunt...
+  </p>
 </div>
 
       <ul>
